@@ -80,12 +80,22 @@ public class Robot extends TimedRobot {
     System.out.println("Robot Start Done");
   }
 
+  static double zone = 0.0156;
+  static double zpow = 0.54;
 
-  public static double TorqueMap(double x) {
-    if (x < 0) {
+  public static double TorqueMap(double x) { //https://i.gyazo.com/6d931287e56def4b861c7d532039dcd1.png
+    /*if (x < 0) {
       return -Math.sqrt(-x)/3;
     }else{
       return Math.sqrt(x)/3;
+    }*/
+    double a = abs(x);
+    if (a>0.001) {
+      double s = x/a;
+      double n = a*((1-zone)+zone);
+      return s*(Math.pow(n,zpow));
+    }else{
+      return 0;
     }
   } 
 
