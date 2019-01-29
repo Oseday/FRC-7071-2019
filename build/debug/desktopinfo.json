@@ -1,0 +1,16 @@
+[
+  {
+    "name": "FRC2019_DeepSpace v1 (in project FRC2019_DeepSpace v1)",
+    "file": "C:\\Users\\ITU GVO\\Desktop\\FRC2019 DeepSpace 7071\\FRC2019_DeepSpace v1\\build\\libs\\FRC2019_DeepSpace v1.jar",
+    "extensions": [],
+    "librarydir": "C:\\Users\\ITU GVO\\Desktop\\FRC2019 DeepSpace 7071\\FRC2019_DeepSpace v1\\build\\tmp\\jniExtractDir",
+    "mainclass": "frc.robot.Main"
+  },
+  {
+    "name": "FRC2019_DeepSpace (in project FRC2019_DeepSpace)",
+    "file": "C:\\Users\\canca\\Desktop\\FRC Project 2019\\FRC2019_DeepSpace\\build\\libs\\FRC2019_DeepSpace.jar",
+    "extensions": [],
+    "librarydir": "C:\\Users\\canca\\Desktop\\FRC Project 2019\\FRC2019_DeepSpace\\build\\tmp\\jniExtractDir",
+    "mainclass": "frc.robot.Main"
+  }
+]
